@@ -1,0 +1,88 @@
+/* Universal */
+
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: white;
+    background-color: midnightblue;
+}
+/* header */
+
+header {
+    text-align: center;
+    background-image: url(../assets/images/backgroundtexture.jpg);
+    padding: 5px 0px;
+    line-height: 1.5;
+}
+/* Navigation */
+
+nav {
+    text-align: center;
+    width: 100%;
+    text-transform: uppercase;
+}
+
+li {
+    display: inline-block;
+    padding: 0px 5px;
+}
+
+a {    
+    color: white;
+}
+
+/* sections */
+
+section {
+    margin-top: 100px;
+}
+
+h2{
+    width: 100%;
+   text-align: center;
+}
+
+table {
+    border: 2px solid white;
+    width: 50%;
+    margin: auto;
+    text-align: center;
+}
+
+thead {
+    background-image: url(../assets/images/backgroundtexture.jpg);
+    border: 2px solid white;
+}
+
+td {
+    border: 1px solid white;
+    padding: 5px 10px;
+}
+
+td:hover {
+    color: aqua;
+}
+
+.code {
+    font-family: monospace;
+    text-align: left;
+    text-wrap: nowrap;
+}
+
+.property {
+    color: aqua;
+}
+
+.value {
+    color: coral;
+}
+
+/* Footer */
+
+footer {
+    height: 30px;
+    margin-top: 50px;
+    background-image: url(../assets/images/backgroundtexture.jpg) ;
+    text-align: center;
+    width: 100%;
+    text-transform: uppercase;
+}
